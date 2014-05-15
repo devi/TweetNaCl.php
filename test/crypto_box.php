@@ -2,16 +2,6 @@
 
 require "../TweetNacl.php";
 
-function printArr($arr) {
-	for ($i = 0;$i < count($arr);++$i) {
-		//printf("0x%02x", $arr[$i]);
-		printf("%c", $arr[$i]);
-		//if ($i < count($arr)-1) printf(",");
-		//if ($i % 8 == 7) printf("\n");
-	}
-	printf("\n");
-}
-
 $alice_sk = array(
 0xb1,0x99,0xe4,0x32,0xeb,0x45,0x59,0x0e,
 0xab,0x40,0x54,0x93,0x07,0x38,0xbc,0xbe,
