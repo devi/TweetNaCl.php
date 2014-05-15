@@ -1,6 +1,6 @@
 <?php
 
-require "../TweetNacl.php";
+require "../TweetNaCl.php";
 
 function printDiff($a, $b) {
 	printf("want: ");

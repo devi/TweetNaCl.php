@@ -1,6 +1,6 @@
 <?php
 
-require "../TweetNacl.php";
+require "../TweetNaCl.php";
 
 function printArr($arr) {
 	for ($i = 0;$i < 32;++$i) {
